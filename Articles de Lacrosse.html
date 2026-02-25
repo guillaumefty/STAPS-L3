@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Articles de Lacrosse</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #C65D1E;
+    color: white;
+}
+
+.banner {
+    background: url('https://images.unsplash.com/photo-1603297631958-10b5c4b0a9c4') center/cover no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+section {
+    padding: 50px 10%;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background-color: white;
+    color: #333;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+    font-size: 20px;
+}
+
+.price {
+    font-weight: 600;
+    color: #4B6944;
+}
+
+.back {
+    text-align: center;
+    padding: 40px;
+}
+
+.back a {
+    text-decoration: none;
+    background-color: white;
+    color: #4B6944;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.back a:hover {
+    background-color: #2f4430;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="banner">
+<h1> Articles de Lacrosse</h1>
+</div>
+
+<!-- Crampons -->
+<section>
+    <h2>Crampons</h2>
+    <div class="products">
+        <div class="card">
+            <img src="cr1.webp" alt="Chaussure joueur de champ">
+            <h3>Adidas </h3>
+            <div class="price">89€</div>
+        </div>
+        <div class="card">
+            <img src="cr2.webp" alt="Chaussure joueur de champ">
+
+            <h3>Nike</h3>
+            <div class="price">99€</div>
+        </div>
+        <div class="card">
+            <img src="cr3.webp" alt="Chaussure joueur de champ">
+            <h3>Puma</h3>
+            <div class="price">99€</div>
+        </div>
+    </div>
+</section>
+
+<!-- Protections -->
+<section>
+    <h2>Protections</h2>
+    <div class="products">
+        <div class="card">
+            <img src="calac.webp" alt="">
+            <h3>Casque</h3>
+            <div class="price">95€</div>
+        </div>
+        <div class="card">
+            <img src="galac.webp" alt="">
+            <h3>Gants</h3>
+            <div class="price">50€</div>
+        </div>
+         <div class="card">
+            <img src="eplac.webp" alt="">
+            <h3>Épaulières</h3>
+            <div class="price">105€</div>
+        </div>
+    </div>
+</section>
+
+<!-- Crosse -->
+<section>
+    <h2>Crosse</h2>
+    <div class="products">
+        <div class="card">
+            <img src="lac1.webp" alt="">
+            <h3>Crosse</h3>
+            <div class="price">80€</div>
+        </div>
+    </div>
+</section>
+
+
+    </div>
+</section>
+
+<div class="back">
+    <a href="hub.html">Retour au Sommaire</a>
+</div>
+
+</body>
+</html>
