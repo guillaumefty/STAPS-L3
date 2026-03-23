@@ -1,0 +1,70 @@
+/* Importation de la police Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #4B6944; /* Ce vert forêt donne un côté très "terrain de sport" */
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 60px 20px 30px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.8;
+    margin-top: 10px;
+}
+
+section {
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+}
+
+/* Style des boutons (liens) */
+a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    min-width: 200px; /* Pour que tous les boutons aient la même largeur */
+}
+
+/* Effet au survol */
+a:hover {
+    background-color: white;
+    color: #4B6944;
+    transform: translateY(-3px); /* Petit effet de levier sympa */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
